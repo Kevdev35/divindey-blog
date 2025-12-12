@@ -21,7 +21,7 @@
             {#each navbarFloatingBottom as item}
                 <li class="relative group">
                     <a
-                        href={item.href} target="_blank" rel="noopener noreferrer"
+                        href={item.href} rel="noopener noreferrer"
                         class="px-3 py-2 rounded-full hover:scale-105 transition-all flex items-center justify-center text-gray-600 min-w-[44px]"
                         aria-label={item.name}
                     >
