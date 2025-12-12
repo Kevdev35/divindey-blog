@@ -6,6 +6,8 @@
     import MoreSectionsCard from "$lib/components/MoreSectionsCard.svelte";
     import { moreSections } from "$lib/cheat-sheets/more-sections";
 
+    import ButtonFloatingBottom from "$lib/components/buttonFloatingBottom.svelte";
+
     const titleText = "Git Commands Cheat Sheet - Divindey Dev";
 </script>
 
@@ -101,10 +103,14 @@
 
             <!-- Sidebar Section -->
             <aside class="lg:col-span-4 xl:col-span-4">
-                <div class="sticky top-24">
+                <div class="sticky top-24 space-y-6 justify-between">
                     <MoreSectionsCard sections={moreSections} />
+                    
                 </div>
             </aside>
         </div>
+        <ButtonFloatingBottom />
     </div>
+
+    
 </div>

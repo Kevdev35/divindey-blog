@@ -53,7 +53,7 @@
                                         <a href={submenuItem.href} class="flex flex-col ">
                                             {submenuItem.name}
                                             {#if submenuItem.description}
-                                                <span class="text-sm text-gray-600 flex">{submenuItem.description}</span>
+                                                <span class="text-sm text-gray-400 flex">{submenuItem.description}</span>
                                             {/if}
                                         </a>
                                         
