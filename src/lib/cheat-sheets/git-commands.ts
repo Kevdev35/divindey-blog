@@ -38,11 +38,11 @@ export const gitCommandsCheatSheet = [
         title: "Remote Repositories (GitHub)",
         description: "Connect Git with GitHub repositories.",
         commands: [
-            { title: "Add remote origin", command: "git remote add origin https://github.com/usuario/repo.git" },
+            { title: "Add remote origin", command: "git remote add origin https://github.com/user/repo.git" },
             { title: "Push first time", command: "git push -u origin main" },
             { title: "Push changes", command: "git push" },
             { title: "Pull changes", command: "git pull" },
-            { title: "Clone repository", command: "git clone https://github.com/usuario/repo.git" }
+            { title: "Clone repository", command: "git clone https://github.com/user/repo.git" }
         ]
     },
     {
